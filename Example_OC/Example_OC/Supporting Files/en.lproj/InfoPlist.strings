@@ -1,0 +1,18 @@
+/* 
+  InfoPlist.strings
+  Example_OC
+
+  Created by light on 2018/5/1.
+  Copyright © 2018年 light. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "test";
+
+//CFBundleDisplayName 应用名称
+//NSHumanReadableCopyright CopyRight
+//NSCameraUsageDescription 相机权限开启时候弹框的提示文字
+//NSContactsUsageDescription 通讯录权限开启时候弹框的提示文字
+//NSLocationWhenInUseUsageDescription 定位权限开启时候弹框的提示文字
+//NSMicrophoneUsageDescription 麦克风权限开启时候弹框的提示文字
+//NSPhotoLibraryUsageDescription 相册权限开启时候弹框的提示文字
+//NSRemindersUsageDescription    推送权限开启时候弹框的提示文字

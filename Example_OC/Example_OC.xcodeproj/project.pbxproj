@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A057B29920970E62000337CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93D920947B1600D4A774 /* Main.storyboard */; };
+		A057B2A720986E53000337CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A057B2A920986E53000337CB /* InfoPlist.strings */; };
+		A057B2AB20986E6E000337CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A057B2AD20986E6E000337CB /* Localizable.strings */; };
+		A057B2B020988D4C000337CB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A057B2AF20988D4C000337CB /* Info.plist */; };
 		A0BE93D520947B1600D4A774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BE93D420947B1600D4A774 /* AppDelegate.m */; };
 		A0BE93D820947B1600D4A774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BE93D720947B1600D4A774 /* ViewController.m */; };
-		A0BE93DB20947B1600D4A774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93D920947B1600D4A774 /* Main.storyboard */; };
 		A0BE93DD20947B1800D4A774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93DC20947B1800D4A774 /* Assets.xcassets */; };
 		A0BE93E020947B1800D4A774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93DE20947B1800D4A774 /* LaunchScreen.storyboard */; };
 		A0BE93E320947B1800D4A774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BE93E220947B1800D4A774 /* main.m */; };
+		BE16C204F62FC2CD53D723D8 /* libPods-Example_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C95550BDB8FE9265C534C9 /* libPods-Example_OC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32C946B9CC1571E1F9EB6099 /* Pods-Example_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example_OC/Pods-Example_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		62CEB5290BF10D98C68E9C56 /* Pods-Example_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example_OC/Pods-Example_OC.release.xcconfig"; sourceTree = "<group>"; };
+		72C95550BDB8FE9265C534C9 /* libPods-Example_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A057B29720970D85000337CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A057B29820970D88000337CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A057B2A820986E53000337CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A057B2AA20986E55000337CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A057B2AC20986E6E000337CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A057B2AE20986E6F000337CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A057B2AF20988D4C000337CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0BE93D020947B1600D4A774 /* Example_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BE93D320947B1600D4A774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0BE93D420947B1600D4A774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,7 +38,6 @@
 		A0BE93DA20947B1600D4A774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0BE93DC20947B1800D4A774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BE93DF20947B1800D4A774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A0BE93E120947B1800D4A774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0BE93E220947B1800D4A774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,17 +46,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE16C204F62FC2CD53D723D8 /* libPods-Example_OC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97F19FC75D9A2847B8D02533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32C946B9CC1571E1F9EB6099 /* Pods-Example_OC.debug.xcconfig */,
+				62CEB5290BF10D98C68E9C56 /* Pods-Example_OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A057B2A620986B4F000337CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A057B2A920986E53000337CB /* InfoPlist.strings */,
+				A057B2AD20986E6E000337CB /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		A0BE93C720947B1600D4A774 = {
 			isa = PBXGroup;
 			children = (
 				A0BE93D220947B1600D4A774 /* Example_OC */,
 				A0BE93D120947B1600D4A774 /* Products */,
+				97F19FC75D9A2847B8D02533 /* Pods */,
+				F5336F677B0F6809EB237447 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,10 +99,19 @@
 				A0BE93D920947B1600D4A774 /* Main.storyboard */,
 				A0BE93DC20947B1800D4A774 /* Assets.xcassets */,
 				A0BE93DE20947B1800D4A774 /* LaunchScreen.storyboard */,
-				A0BE93E120947B1800D4A774 /* Info.plist */,
+				A057B2AF20988D4C000337CB /* Info.plist */,
 				A0BE93E220947B1800D4A774 /* main.m */,
+				A057B2A620986B4F000337CB /* Supporting Files */,
 			);
 			path = Example_OC;
+			sourceTree = "<group>";
+		};
+		F5336F677B0F6809EB237447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72C95550BDB8FE9265C534C9 /* libPods-Example_OC.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +121,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0BE93E620947B1800D4A774 /* Build configuration list for PBXNativeTarget "Example_OC" */;
 			buildPhases = (
+				C7FC4A52231D52460ABED326 /* [CP] Check Pods Manifest.lock */,
 				A0BE93CC20947B1600D4A774 /* Sources */,
 				A0BE93CD20947B1600D4A774 /* Frameworks */,
 				A0BE93CE20947B1600D4A774 /* Resources */,
@@ -112,6 +156,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = A0BE93C720947B1600D4A774;
 			productRefGroup = A0BE93D120947B1600D4A774 /* Products */;
@@ -128,13 +173,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A057B2AB20986E6E000337CB /* Localizable.strings in Resources */,
+				A057B29920970E62000337CB /* Main.storyboard in Resources */,
+				A057B2B020988D4C000337CB /* Info.plist in Resources */,
+				A057B2A720986E53000337CB /* InfoPlist.strings in Resources */,
 				A0BE93E020947B1800D4A774 /* LaunchScreen.storyboard in Resources */,
 				A0BE93DD20947B1800D4A774 /* Assets.xcassets in Resources */,
-				A0BE93DB20947B1600D4A774 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7FC4A52231D52460ABED326 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example_OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0BE93CC20947B1600D4A774 /* Sources */ = {
@@ -150,10 +219,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A057B2A920986E53000337CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A057B2A820986E53000337CB /* en */,
+				A057B2AA20986E55000337CB /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A057B2AD20986E6E000337CB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A057B2AC20986E6E000337CB /* en */,
+				A057B2AE20986E6F000337CB /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		A0BE93D920947B1600D4A774 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A0BE93DA20947B1600D4A774 /* Base */,
+				A057B29720970D85000337CB /* en */,
+				A057B29820970D88000337CB /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -173,6 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -231,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -281,15 +372,13 @@
 		};
 		A0BE93E720947B1800D4A774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C946B9CC1571E1F9EB6099 /* Pods-Example_OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52C9756LP2;
 				INFOPLIST_FILE = Example_OC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.light.Example-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,15 +387,13 @@
 		};
 		A0BE93E820947B1800D4A774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CEB5290BF10D98C68E9C56 /* Pods-Example_OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52C9756LP2;
 				INFOPLIST_FILE = Example_OC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.light.Example-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,33 @@
+
+/* Class = "UITabBarItem"; title = "item1"; ObjectID = "Miw-BN-r8A"; */
+"Miw-BN-r8A.title" = "item1";
+
+/* Class = "UITabBarItem"; title = "item2"; ObjectID = "CW8-PR-NQK"; */
+"CW8-PR-NQK.title" = "item2";
+
+/* Class = "UITabBarItem"; title = "item3"; ObjectID = "3qV-QS-s7e"; */
+"3qV-QS-s7e.title" = "item3";
+
+/* Class = "UINavigationItem"; title = "标题1"; ObjectID = "0YJ-08-jam"; */
+"0YJ-08-jam.title" = "标题1";
+
+/* Class = "UINavigationItem"; title = "标题2"; ObjectID = "fZa-aV-A47"; */
+"fZa-aV-A47.title" = "标题2";
+
+/* Class = "UINavigationItem"; title = "标题3"; ObjectID = "Ku2-L7-HlM"; */
+"Ku2-L7-HlM.title" = "标题3";
+
+/* Class = "UILabel"; text = "设置"; ObjectID = "86s-yk-MGO"; */
+"86s-yk-MGO.text" = "设置";
+
+/* Class = "UINavigationItem"; title = "设置"; ObjectID = "HT8-RE-biD"; */
+"HT8-RE-biD.title" = "设置";
+
+/* Class = "UILabel"; text = "语言"; ObjectID = "SJm-fG-hSE"; */
+"SJm-fG-hSE.text" = "语言";
+
+/* Class = "UILabel"; text = "中文"; ObjectID = "V9H-OG-Chk"; */
+"V9H-OG-Chk.text" = "中文";
+
+/* Class = "UITableViewController"; title = "设置"; ObjectID = "swn-cy-1AL"; */
+"swn-cy-1AL.title" = "设置";
