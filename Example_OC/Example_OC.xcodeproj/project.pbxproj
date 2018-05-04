@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A020A51A209AF78E00582B4E /* UIColor+CLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A020A519209AF78E00582B4E /* UIColor+CLExtension.m */; };
+		A020A51D209B0D1800582B4E /* CLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A020A51C209B0D1800582B4E /* CLCollectionView.m */; };
 		A057B29920970E62000337CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93D920947B1600D4A774 /* Main.storyboard */; };
 		A057B2A720986E53000337CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A057B2A920986E53000337CB /* InfoPlist.strings */; };
 		A057B2AB20986E6E000337CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A057B2AD20986E6E000337CB /* Localizable.strings */; };
@@ -23,6 +25,11 @@
 		32C946B9CC1571E1F9EB6099 /* Pods-Example_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example_OC/Pods-Example_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		62CEB5290BF10D98C68E9C56 /* Pods-Example_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example_OC/Pods-Example_OC.release.xcconfig"; sourceTree = "<group>"; };
 		72C95550BDB8FE9265C534C9 /* libPods-Example_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A020A514209AE35300582B4E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A020A518209AF78E00582B4E /* UIColor+CLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CLExtension.h"; sourceTree = "<group>"; };
+		A020A519209AF78E00582B4E /* UIColor+CLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CLExtension.m"; sourceTree = "<group>"; };
+		A020A51B209B0D1800582B4E /* CLCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCollectionView.h; sourceTree = "<group>"; };
+		A020A51C209B0D1800582B4E /* CLCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCollectionView.m; sourceTree = "<group>"; };
 		A057B29720970D85000337CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		A057B29820970D88000337CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		A057B2A820986E53000337CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -62,11 +69,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A020A5122099ACB300582B4E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A020A518209AF78E00582B4E /* UIColor+CLExtension.h */,
+				A020A519209AF78E00582B4E /* UIColor+CLExtension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A020A5132099ACBC00582B4E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A020A51B209B0D1800582B4E /* CLCollectionView.h */,
+				A020A51C209B0D1800582B4E /* CLCollectionView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		A057B2A620986B4F000337CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				A057B2A920986E53000337CB /* InfoPlist.strings */,
 				A057B2AD20986E6E000337CB /* Localizable.strings */,
+				A020A514209AE35300582B4E /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -96,6 +122,8 @@
 				A0BE93D420947B1600D4A774 /* AppDelegate.m */,
 				A0BE93D620947B1600D4A774 /* ViewController.h */,
 				A0BE93D720947B1600D4A774 /* ViewController.m */,
+				A020A5132099ACBC00582B4E /* Base */,
+				A020A5122099ACB300582B4E /* Categories */,
 				A0BE93D920947B1600D4A774 /* Main.storyboard */,
 				A0BE93DC20947B1800D4A774 /* Assets.xcassets */,
 				A0BE93DE20947B1800D4A774 /* LaunchScreen.storyboard */,
@@ -211,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0BE93D820947B1600D4A774 /* ViewController.m in Sources */,
+				A020A51A209AF78E00582B4E /* UIColor+CLExtension.m in Sources */,
+				A020A51D209B0D1800582B4E /* CLCollectionView.m in Sources */,
 				A0BE93E320947B1800D4A774 /* main.m in Sources */,
 				A0BE93D520947B1600D4A774 /* AppDelegate.m in Sources */,
 			);
@@ -300,6 +330,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Example_OC/Supporting Files/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -357,6 +388,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Example_OC/Supporting Files/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -378,7 +410,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52C9756LP2;
 				INFOPLIST_FILE = Example_OC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.light.Example-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -393,7 +428,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52C9756LP2;
 				INFOPLIST_FILE = Example_OC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.light.Example-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
