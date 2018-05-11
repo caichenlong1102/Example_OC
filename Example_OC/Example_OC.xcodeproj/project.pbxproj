@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A020A51A209AF78E00582B4E /* UIColor+CLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A020A519209AF78E00582B4E /* UIColor+CLExtension.m */; };
 		A020A51D209B0D1800582B4E /* CLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A020A51C209B0D1800582B4E /* CLCollectionView.m */; };
+		A057AFE920A426C800A1D6EE /* TextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A057AFE820A426C800A1D6EE /* TextViewTableViewCell.m */; };
 		A057B29920970E62000337CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93D920947B1600D4A774 /* Main.storyboard */; };
 		A057B2A720986E53000337CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A057B2A920986E53000337CB /* InfoPlist.strings */; };
 		A057B2AB20986E6E000337CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A057B2AD20986E6E000337CB /* Localizable.strings */; };
@@ -18,6 +19,8 @@
 		A0BE93DD20947B1800D4A774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93DC20947B1800D4A774 /* Assets.xcassets */; };
 		A0BE93E020947B1800D4A774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93DE20947B1800D4A774 /* LaunchScreen.storyboard */; };
 		A0BE93E320947B1800D4A774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BE93E220947B1800D4A774 /* main.m */; };
+		A0DE22AE209FD1B800BA3131 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE22AD209FD1B800BA3131 /* TestViewController.m */; };
+		A0DE22B120A3E03500BA3131 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE22B020A3E03500BA3131 /* TableViewController.m */; };
 		BE16C204F62FC2CD53D723D8 /* libPods-Example_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C95550BDB8FE9265C534C9 /* libPods-Example_OC.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,8 @@
 		A020A519209AF78E00582B4E /* UIColor+CLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CLExtension.m"; sourceTree = "<group>"; };
 		A020A51B209B0D1800582B4E /* CLCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCollectionView.h; sourceTree = "<group>"; };
 		A020A51C209B0D1800582B4E /* CLCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCollectionView.m; sourceTree = "<group>"; };
+		A057AFE720A426C700A1D6EE /* TextViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewTableViewCell.h; sourceTree = "<group>"; };
+		A057AFE820A426C800A1D6EE /* TextViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewTableViewCell.m; sourceTree = "<group>"; };
 		A057B29720970D85000337CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		A057B29820970D88000337CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		A057B2A820986E53000337CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -46,6 +51,10 @@
 		A0BE93DC20947B1800D4A774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BE93DF20947B1800D4A774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0BE93E220947B1800D4A774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0DE22AC209FD1B800BA3131 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A0DE22AD209FD1B800BA3131 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		A0DE22AF20A3E03500BA3131 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A0DE22B020A3E03500BA3131 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +131,11 @@
 				A0BE93D420947B1600D4A774 /* AppDelegate.m */,
 				A0BE93D620947B1600D4A774 /* ViewController.h */,
 				A0BE93D720947B1600D4A774 /* ViewController.m */,
+				A0DE22AC209FD1B800BA3131 /* TestViewController.h */,
+				A0DE22AD209FD1B800BA3131 /* TestViewController.m */,
 				A020A5132099ACBC00582B4E /* Base */,
 				A020A5122099ACB300582B4E /* Categories */,
+				A0DE22B220A3E04D00BA3131 /* TestVC */,
 				A0BE93D920947B1600D4A774 /* Main.storyboard */,
 				A0BE93DC20947B1800D4A774 /* Assets.xcassets */,
 				A0BE93DE20947B1800D4A774 /* LaunchScreen.storyboard */,
@@ -132,6 +144,17 @@
 				A057B2A620986B4F000337CB /* Supporting Files */,
 			);
 			path = Example_OC;
+			sourceTree = "<group>";
+		};
+		A0DE22B220A3E04D00BA3131 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				A0DE22AF20A3E03500BA3131 /* TableViewController.h */,
+				A0DE22B020A3E03500BA3131 /* TableViewController.m */,
+				A057AFE720A426C700A1D6EE /* TextViewTableViewCell.h */,
+				A057AFE820A426C800A1D6EE /* TextViewTableViewCell.m */,
+			);
+			path = TestVC;
 			sourceTree = "<group>";
 		};
 		F5336F677B0F6809EB237447 /* Frameworks */ = {
@@ -238,10 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DE22AE209FD1B800BA3131 /* TestViewController.m in Sources */,
 				A0BE93D820947B1600D4A774 /* ViewController.m in Sources */,
 				A020A51A209AF78E00582B4E /* UIColor+CLExtension.m in Sources */,
 				A020A51D209B0D1800582B4E /* CLCollectionView.m in Sources */,
 				A0BE93E320947B1800D4A774 /* main.m in Sources */,
+				A057AFE920A426C800A1D6EE /* TextViewTableViewCell.m in Sources */,
+				A0DE22B120A3E03500BA3131 /* TableViewController.m in Sources */,
 				A0BE93D520947B1600D4A774 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
