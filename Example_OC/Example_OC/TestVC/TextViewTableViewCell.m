@@ -78,12 +78,34 @@ NSString * const TextViewTableViewCellID = @"TextViewTableViewCellID";
         make.height.greaterThanOrEqualTo(@(newSize.height));
     }];
     
-    //TableViewcCell 自适应高度
-    if ([self.superview isKindOfClass:[UITableView class]]) {
-        UITableView *tableView = (UITableView *)self.superview;
+//    //TableViewcCell 自适应高度
+//    if ([self.superview isKindOfClass:[UITableView class]]) {
+//        UITableView *tableView = (UITableView *)self.superview;
+//        [tableView beginUpdates];
+//        [tableView endUpdates];
+//
+//        //自适应后，修改_UITextContainerView 滚回顶部问题
+//        [textView setContentOffset:CGPointZero animated:YES];
+//    }
+//    if ([self.superview.superview isKindOfClass:[UITableView class]]){
+//        UITableView *tableView = (UITableView *)self.superview.superview;
+//        [tableView beginUpdates];
+//        [tableView endUpdates];
+//
+//        //自适应后，修改_UITextContainerView 滚回顶部问题
+//        [textView setContentOffset:CGPointZero animated:YES];
+//    }
+    
+    UIView *view = self;
+    do {
+        view = view.superview;
+    }while (![view isKindOfClass:[UITableView class]] && view);
+    
+    if ([view isKindOfClass:[UITableView class]]) {
+        UITableView *tableView = (UITableView *)view;
         [tableView beginUpdates];
         [tableView endUpdates];
-        
+
         //自适应后，修改_UITextContainerView 滚回顶部问题
         [textView setContentOffset:CGPointZero animated:YES];
     }
