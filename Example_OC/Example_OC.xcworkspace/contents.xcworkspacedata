@@ -5,6 +5,9 @@
       location = "group:&#x6dc4;&#x535a;&#x5e02;.gpx">
    </FileRef>
    <FileRef
+      location = "group:&#x77f3;&#x5bb6;&#x5e84;.gpx">
+   </FileRef>
+   <FileRef
       location = "group:Example_OC.xcodeproj">
    </FileRef>
    <FileRef

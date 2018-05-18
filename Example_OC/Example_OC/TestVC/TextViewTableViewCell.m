@@ -33,18 +33,20 @@ NSString * const TextViewTableViewCellID = @"TextViewTableViewCellID";
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.textView = [[UITextView alloc]initWithFrame:CGRectMake(20, 0, 280, 20)];
-        self.textView.backgroundColor = [UIColor blueColor];
-        [self.contentView addSubview:self.textView];
-        self.textView.delegate = self;
+        _textView = [[UITextView alloc]initWithFrame:CGRectMake(20, 0, 280, 20)];
+        _textView.backgroundColor = [UIColor blueColor];
+        [self.contentView addSubview:_textView];
+        _textView.delegate = self;
         
-        [self.textView mas_makeConstraints:^(MASConstraintMaker *make) {
+        [_textView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.contentView).offset(10);
             make.bottom.equalTo(self.contentView).offset(-10);
             make.left.equalTo(self.contentView).offset(10);
             make.right.equalTo(self.contentView).offset(-10);
             make.height.greaterThanOrEqualTo(@25);
         }];
+        
+        [self changeSizeWithTextView:_textView];
     }
     return self;
 }

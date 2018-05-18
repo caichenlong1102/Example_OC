@@ -19,10 +19,38 @@
 		A0BE93DD20947B1800D4A774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93DC20947B1800D4A774 /* Assets.xcassets */; };
 		A0BE93E020947B1800D4A774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93DE20947B1800D4A774 /* LaunchScreen.storyboard */; };
 		A0BE93E320947B1800D4A774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BE93E220947B1800D4A774 /* main.m */; };
+		A0CD9F6E20AD17AF00237762 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CD9F6D20AD17AF00237762 /* NotificationCenter.framework */; };
+		A0CD9F7220AD17AF00237762 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CD9F7120AD17AF00237762 /* TodayViewController.m */; };
+		A0CD9F7520AD17AF00237762 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CD9F7320AD17AF00237762 /* MainInterface.storyboard */; };
+		A0CD9F7920AD17AF00237762 /* Example_OC_Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A0CD9F6C20AD17AF00237762 /* Example_OC_Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A0DE22AE209FD1B800BA3131 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE22AD209FD1B800BA3131 /* TestViewController.m */; };
 		A0DE22B120A3E03500BA3131 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE22B020A3E03500BA3131 /* TableViewController.m */; };
 		BE16C204F62FC2CD53D723D8 /* libPods-Example_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C95550BDB8FE9265C534C9 /* libPods-Example_OC.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0CD9F7720AD17AF00237762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0BE93C820947B1600D4A774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CD9F6B20AD17AF00237762;
+			remoteInfo = Example_OC_Widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0CD9F7D20AD17AF00237762 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A0CD9F7920AD17AF00237762 /* Example_OC_Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		32C946B9CC1571E1F9EB6099 /* Pods-Example_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example_OC/Pods-Example_OC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,6 +79,12 @@
 		A0BE93DC20947B1800D4A774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BE93DF20947B1800D4A774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0BE93E220947B1800D4A774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0CD9F6C20AD17AF00237762 /* Example_OC_Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Example_OC_Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CD9F6D20AD17AF00237762 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A0CD9F7020AD17AF00237762 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		A0CD9F7120AD17AF00237762 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		A0CD9F7420AD17AF00237762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A0CD9F7620AD17AF00237762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0DE22AC209FD1B800BA3131 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		A0DE22AD209FD1B800BA3131 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		A0DE22AF20A3E03500BA3131 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
@@ -63,6 +97,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE16C204F62FC2CD53D723D8 /* libPods-Example_OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CD9F6920AD17AF00237762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CD9F6E20AD17AF00237762 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				A0BE93D220947B1600D4A774 /* Example_OC */,
+				A0CD9F6F20AD17AF00237762 /* Example_OC_Widget */,
 				A0BE93D120947B1600D4A774 /* Products */,
 				97F19FC75D9A2847B8D02533 /* Pods */,
 				F5336F677B0F6809EB237447 /* Frameworks */,
@@ -120,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				A0BE93D020947B1600D4A774 /* Example_OC.app */,
+				A0CD9F6C20AD17AF00237762 /* Example_OC_Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +190,17 @@
 			path = Example_OC;
 			sourceTree = "<group>";
 		};
+		A0CD9F6F20AD17AF00237762 /* Example_OC_Widget */ = {
+			isa = PBXGroup;
+			children = (
+				A0CD9F7020AD17AF00237762 /* TodayViewController.h */,
+				A0CD9F7120AD17AF00237762 /* TodayViewController.m */,
+				A0CD9F7320AD17AF00237762 /* MainInterface.storyboard */,
+				A0CD9F7620AD17AF00237762 /* Info.plist */,
+			);
+			path = Example_OC_Widget;
+			sourceTree = "<group>";
+		};
 		A0DE22B220A3E04D00BA3131 /* TestVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				72C95550BDB8FE9265C534C9 /* libPods-Example_OC.a */,
+				A0CD9F6D20AD17AF00237762 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,15 +232,34 @@
 				A0BE93CC20947B1600D4A774 /* Sources */,
 				A0BE93CD20947B1600D4A774 /* Frameworks */,
 				A0BE93CE20947B1600D4A774 /* Resources */,
+				A0CD9F7D20AD17AF00237762 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A0CD9F7820AD17AF00237762 /* PBXTargetDependency */,
 			);
 			name = Example_OC;
 			productName = Example_OC;
 			productReference = A0BE93D020947B1600D4A774 /* Example_OC.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A0CD9F6B20AD17AF00237762 /* Example_OC_Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CD9F7A20AD17AF00237762 /* Build configuration list for PBXNativeTarget "Example_OC_Widget" */;
+			buildPhases = (
+				A0CD9F6820AD17AF00237762 /* Sources */,
+				A0CD9F6920AD17AF00237762 /* Frameworks */,
+				A0CD9F6A20AD17AF00237762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example_OC_Widget;
+			productName = Example_OC_Widget;
+			productReference = A0CD9F6C20AD17AF00237762 /* Example_OC_Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,6 +271,9 @@
 				ORGANIZATIONNAME = light;
 				TargetAttributes = {
 					A0BE93CF20947B1600D4A774 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A0CD9F6B20AD17AF00237762 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -215,6 +293,7 @@
 			projectRoot = "";
 			targets = (
 				A0BE93CF20947B1600D4A774 /* Example_OC */,
+				A0CD9F6B20AD17AF00237762 /* Example_OC_Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -230,6 +309,14 @@
 				A057B2A720986E53000337CB /* InfoPlist.strings in Resources */,
 				A0BE93E020947B1800D4A774 /* LaunchScreen.storyboard in Resources */,
 				A0BE93DD20947B1800D4A774 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CD9F6A20AD17AF00237762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CD9F7520AD17AF00237762 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +359,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0CD9F6820AD17AF00237762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CD9F7220AD17AF00237762 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0CD9F7820AD17AF00237762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0CD9F6B20AD17AF00237762 /* Example_OC_Widget */;
+			targetProxy = A0CD9F7720AD17AF00237762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A057B2A920986E53000337CB /* InfoPlist.strings */ = {
@@ -309,6 +412,14 @@
 				A0BE93DF20947B1800D4A774 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A0CD9F7320AD17AF00237762 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CD9F7420AD17AF00237762 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -433,8 +544,10 @@
 			baseConfigurationReference = 32C946B9CC1571E1F9EB6099 /* Pods-Example_OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52C9756LP2;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Example_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,6 +555,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.light.Example-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,8 +565,10 @@
 			baseConfigurationReference = 62CEB5290BF10D98C68E9C56 /* Pods-Example_OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52C9756LP2;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Example_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +576,49 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.light.Example-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0CD9F7B20AD17AF00237762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52C9756LP2;
+				INFOPLIST_FILE = Example_OC_Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.light.Example-OC.Example-OC-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0CD9F7C20AD17AF00237762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52C9756LP2;
+				INFOPLIST_FILE = Example_OC_Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.light.Example-OC.Example-OC-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -481,6 +640,15 @@
 			buildConfigurations = (
 				A0BE93E720947B1800D4A774 /* Debug */,
 				A0BE93E820947B1800D4A774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CD9F7A20AD17AF00237762 /* Build configuration list for PBXNativeTarget "Example_OC_Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CD9F7B20AD17AF00237762 /* Debug */,
+				A0CD9F7C20AD17AF00237762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

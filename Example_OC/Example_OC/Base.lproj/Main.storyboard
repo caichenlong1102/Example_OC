@@ -168,7 +168,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="swn-cy-1AL" kind="push" id="35K-wK-PmH"/>
+                                            <segue destination="swn-cy-1AL" kind="show" id="35K-wK-PmH"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -210,7 +210,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中文" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9H-OG-Chk">
-                                                    <rect key="frame" x="324" y="12" width="35" height="21"/>
+                                                    <rect key="frame" x="549" y="12" width="35" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
