@@ -10,6 +10,8 @@
 
 #import "TableViewController.h"
 
+#import "MoveCollectionViewController.h"
+
 @interface TestViewController ()
 
 @end
@@ -35,9 +37,13 @@
 #pragma mark ------UIButtonAction------
 
 - (IBAction)goTableViewAction:(id)sender {
-    TableViewController *tableVC = [[TableViewController alloc]init];
-    tableVC.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:tableVC animated:YES];
+    MoveCollectionViewController *moveVC = [[MoveCollectionViewController alloc]init];
+    moveVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:moveVC animated:YES];
+    
+//    TableViewController *tableVC = [[TableViewController alloc]init];
+//    tableVC.hidesBottomBarWhenPushed = YES;
+//    [self.navigationController pushViewController:tableVC animated:YES];
 }
 
 

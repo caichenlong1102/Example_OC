@@ -41,16 +41,22 @@
 }
 
 /**
-  activeDisplayMode有以下两种
+  ios(10.0)
+ activeDisplayMode有以下两种
       NCWidgetDisplayModeCompact, // 收起模式
       NCWidgetDisplayModeExpanded, // 展开模式
+ 
   */
-- (void)widgetActiveDisplayModeDidChange:(NCWidgetDisplayMode)activeDisplayMode withMaximumSize:(CGSize)maxSize {
-    if(activeDisplayMode == NCWidgetDisplayModeCompact) {
-        // 尺寸只设置高度即可，因为宽度是固定的，设置了也不会有效果
-        self.preferredContentSize = CGSizeMake(0, 110);
-    }else{
-        self.preferredContentSize = CGSizeMake(0, 500);
+- (void)widgetActiveDisplayModeDidChange:(NCWidgetDisplayMode)activeDisplayMode withMaximumSize:(CGSize)maxSize  API_AVAILABLE(ios(10.0)){
+    if (@available(iOS 10.0, *)) {
+        if(activeDisplayMode == NCWidgetDisplayModeCompact) {
+            // 尺寸只设置高度即可，因为宽度是固定的，设置了也不会有效果
+            self.preferredContentSize = CGSizeMake(0, 110);
+        }else{
+            self.preferredContentSize = CGSizeMake(0, 500);
+        }
+    } else {
+        // Fallback on earlier versions
     }
 }
 

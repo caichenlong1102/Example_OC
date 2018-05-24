@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		A020A51A209AF78E00582B4E /* UIColor+CLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A020A519209AF78E00582B4E /* UIColor+CLExtension.m */; };
 		A020A51D209B0D1800582B4E /* CLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A020A51C209B0D1800582B4E /* CLCollectionView.m */; };
+		A0424FF020B68E2800C9DB88 /* MoveCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0424FEF20B68E2800C9DB88 /* MoveCollectionViewController.m */; };
+		A0424FF320B68F6A00C9DB88 /* MoveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0424FF220B68F6A00C9DB88 /* MoveCollectionViewCell.m */; };
 		A057AFE920A426C800A1D6EE /* TextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A057AFE820A426C800A1D6EE /* TextViewTableViewCell.m */; };
 		A057B29920970E62000337CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93D920947B1600D4A774 /* Main.storyboard */; };
 		A057B2A720986E53000337CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A057B2A920986E53000337CB /* InfoPlist.strings */; };
 		A057B2AB20986E6E000337CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A057B2AD20986E6E000337CB /* Localizable.strings */; };
-		A057B2B020988D4C000337CB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A057B2AF20988D4C000337CB /* Info.plist */; };
 		A0BE93D520947B1600D4A774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BE93D420947B1600D4A774 /* AppDelegate.m */; };
 		A0BE93D820947B1600D4A774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BE93D720947B1600D4A774 /* ViewController.m */; };
 		A0BE93DD20947B1800D4A774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BE93DC20947B1800D4A774 /* Assets.xcassets */; };
@@ -61,6 +62,10 @@
 		A020A519209AF78E00582B4E /* UIColor+CLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CLExtension.m"; sourceTree = "<group>"; };
 		A020A51B209B0D1800582B4E /* CLCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCollectionView.h; sourceTree = "<group>"; };
 		A020A51C209B0D1800582B4E /* CLCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCollectionView.m; sourceTree = "<group>"; };
+		A0424FEE20B68E2800C9DB88 /* MoveCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveCollectionViewController.h; sourceTree = "<group>"; };
+		A0424FEF20B68E2800C9DB88 /* MoveCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveCollectionViewController.m; sourceTree = "<group>"; };
+		A0424FF120B68F6A00C9DB88 /* MoveCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveCollectionViewCell.h; sourceTree = "<group>"; };
+		A0424FF220B68F6A00C9DB88 /* MoveCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveCollectionViewCell.m; sourceTree = "<group>"; };
 		A057AFE720A426C700A1D6EE /* TextViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewTableViewCell.h; sourceTree = "<group>"; };
 		A057AFE820A426C800A1D6EE /* TextViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewTableViewCell.m; sourceTree = "<group>"; };
 		A057B29720970D85000337CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -69,7 +74,7 @@
 		A057B2AA20986E55000337CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		A057B2AC20986E6E000337CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A057B2AE20986E6F000337CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		A057B2AF20988D4C000337CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05E4AD420B54CEE00831F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0BE93D020947B1600D4A774 /* Example_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BE93D320947B1600D4A774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0BE93D420947B1600D4A774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,6 +143,17 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		A0424FED20B68C8800C9DB88 /* MoveCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A0424FEE20B68E2800C9DB88 /* MoveCollectionViewController.h */,
+				A0424FEF20B68E2800C9DB88 /* MoveCollectionViewController.m */,
+				A0424FF120B68F6A00C9DB88 /* MoveCollectionViewCell.h */,
+				A0424FF220B68F6A00C9DB88 /* MoveCollectionViewCell.m */,
+			);
+			path = MoveCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		A057B2A620986B4F000337CB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,8 +199,8 @@
 				A0BE93D920947B1600D4A774 /* Main.storyboard */,
 				A0BE93DC20947B1800D4A774 /* Assets.xcassets */,
 				A0BE93DE20947B1800D4A774 /* LaunchScreen.storyboard */,
-				A057B2AF20988D4C000337CB /* Info.plist */,
 				A0BE93E220947B1800D4A774 /* main.m */,
+				A05E4AD420B54CEE00831F19 /* Info.plist */,
 				A057B2A620986B4F000337CB /* Supporting Files */,
 			);
 			path = Example_OC;
@@ -204,6 +220,7 @@
 		A0DE22B220A3E04D00BA3131 /* TestVC */ = {
 			isa = PBXGroup;
 			children = (
+				A0424FED20B68C8800C9DB88 /* MoveCollectionViewCell */,
 				A0DE22AF20A3E03500BA3131 /* TableViewController.h */,
 				A0DE22B020A3E03500BA3131 /* TableViewController.m */,
 				A057AFE720A426C700A1D6EE /* TextViewTableViewCell.h */,
@@ -305,7 +322,6 @@
 			files = (
 				A057B2AB20986E6E000337CB /* Localizable.strings in Resources */,
 				A057B29920970E62000337CB /* Main.storyboard in Resources */,
-				A057B2B020988D4C000337CB /* Info.plist in Resources */,
 				A057B2A720986E53000337CB /* InfoPlist.strings in Resources */,
 				A0BE93E020947B1800D4A774 /* LaunchScreen.storyboard in Resources */,
 				A0BE93DD20947B1800D4A774 /* Assets.xcassets in Resources */,
@@ -349,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0DE22AE209FD1B800BA3131 /* TestViewController.m in Sources */,
+				A0424FF320B68F6A00C9DB88 /* MoveCollectionViewCell.m in Sources */,
 				A0BE93D820947B1600D4A774 /* ViewController.m in Sources */,
 				A020A51A209AF78E00582B4E /* UIColor+CLExtension.m in Sources */,
 				A020A51D209B0D1800582B4E /* CLCollectionView.m in Sources */,
@@ -356,6 +373,7 @@
 				A057AFE920A426C800A1D6EE /* TextViewTableViewCell.m in Sources */,
 				A0DE22B120A3E03500BA3131 /* TableViewController.m in Sources */,
 				A0BE93D520947B1600D4A774 /* AppDelegate.m in Sources */,
+				A0424FF020B68E2800C9DB88 /* MoveCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +567,7 @@
 				DEVELOPMENT_TEAM = 52C9756LP2;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Example_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -570,6 +589,7 @@
 				DEVELOPMENT_TEAM = 52C9756LP2;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Example_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
